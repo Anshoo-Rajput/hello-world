@@ -166,18 +166,22 @@ The project also uses Maps api of mapmyindia.org to render maps
 
 
 # Contribute
-Our team is new to web development. Although we have tried our best to make our application robust and secure, errors might have crept in. If you have any ideas, just open an issue and tell us what you think.
+Our team is new to web development. Although we have tried our best to make our application robust and secure, errors might have crept in. If you have any ideas, just [open an issue](https://github.com/shankhanil007/Covid-Info-v3/issues) and tell us what you think.
 
 If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
 
+  1. Fork it (https://github.com/your_userID/Covid-Info-v3/fork)
+  2. Create your own branch (git checkout -b views/newPages)
+  3. Commit your changes (git commit -am 'Added new auth feature')
+  4.  Push to the branch (git push origin views/newPages)
+  5.  Create a new Pull Request
 
 
 
 
-#Credits
+
+# Credits
 ####Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
-
-
 
 
 
