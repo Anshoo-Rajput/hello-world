@@ -122,13 +122,7 @@ It is very easy to use our project if anyone wants. Just follow the steps :
      ```javascript
       npm install async, body-parser, connect-flash, ejs, express, express-session, locus, method-override, mongoose, passport, passport-     local, passport-local-mongoose, puppeteer, request --save
      ```
-4. After successful installation run the following command to start the application :
-      ```javascript
-       node app.js
-      ```
-   If you see *Server Has Started!!* then you have successfully setup everything and good to go with our application.
-
-5. Your package.json should look like this with the following dependencies
+4. Your package.json should look like this with the following dependencies
      ```javascript
      "dependencies": {
        "async": "^3.2.0",
@@ -148,9 +142,41 @@ It is very easy to use our project if anyone wants. Just follow the steps :
        "twilio": "^3.42.1"
      }
    }
-   ```
+   ```    
+5. Initializing mapmyindia API :
+      * Go to [MapMyIndia](https://www.mapmyindia.com/api/) website and Sign Up for free
+      * After signning up in your dashboard you will find 3 API keys
+      * Place the 3 API keys accordingly in *newSeller.ejs* file s follows :
+       ```javascript
+           <script src="https://apis.mapmyindia.com/advancedmaps/v1/defcgzvz4xelncj8tlcqrllin9oeuycj/map_load?v=1.3"></script>
+         
+          function Auth_token_generate(){
+            $.ajax({
+                data: {
+                "grant_type": "client_credentials",
+                "client_id": "<CLIET_ID_KEY",
+                "client_secret": "CLIENT_SECRET_KEY"
+                },  
+                
+                
+                
+           function distance_matrix(){
+    jsonp('https://apis.mapmyindia.com/advancedmaps/v1/<REST_KEY>/distance_matrix/driving/90.33687,23.470314;90.379249,23.497178;90.497009,23.546286?rtype=1&region=bgd', function(data) {
+                console.log(data);
+                alert(JSON.stringify(data));
+            });
+        }
+     ```
+     
+6. After successful installation run the following command to start the application :
+      ```javascript
+       node app.js
+      ```
+   If you see *Server Has Started!!* then you have successfully setup everything and good to go with our application.
 
-6. mapmy india key
+
+
+
 
 
 
