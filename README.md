@@ -147,7 +147,7 @@ It is very easy to use our project if anyone wants. Just follow the steps :
       * Go to [MapMyIndia](https://www.mapmyindia.com/api/) website and Sign Up for free
       * After signning up in your dashboard you will find 3 API keys
       * Place the 3 API keys accordingly in *newSeller.ejs* file s follows :
-       ```javascript
+        ```javascript
            <script src="https://apis.mapmyindia.com/advancedmaps/v1/defcgzvz4xelncj8tlcqrllin9oeuycj/map_load?v=1.3"></script>
          
           function Auth_token_generate(){
@@ -166,7 +166,7 @@ It is very easy to use our project if anyone wants. Just follow the steps :
                 alert(JSON.stringify(data));
             });
         }
-     ```
+      ```
      
 6. After successful installation run the following command to start the application :
       ```javascript
