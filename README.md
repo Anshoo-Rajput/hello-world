@@ -18,6 +18,7 @@ Another problem faced by people now is crowding of people in front of grocery st
 
 # Code style
   1. Proper folder structure has been maintained
+  
        ![alt text](https://github.com/shankhanil007/hello-world/blob/master/Capture.PNG "Folder Structure")
 
   2. Proper indenting and sequential inclusion of files
