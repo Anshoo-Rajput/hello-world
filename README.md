@@ -114,8 +114,29 @@ It is very easy to use our project if anyone wants. Just follow the steps :
   
 4. After successful installation run the command *node app.js* to start the project. If you see *Server Has Started!!* then you have        successfully setup everything and good to go with our application.
 
+5. Your package.json should look like this with the following dependencies
+     ```javascript
+     "dependencies": {
+       "async": "^3.2.0",
+       "body-parser": "^1.19.0",
+       "connect-flash": "^0.1.1",
+       "ejs": "^3.0.2",
+       "express": "^4.17.1",
+       "express-session": "^1.17.1",
+       "locus": "^2.0.4",
+       "method-override": "^3.0.0",
+       "mongoose": "^5.9.6",
+       "passport": "^0.4.1",
+       "passport-local": "^1.0.0",
+       "passport-local-mongoose": "^6.0.1",
+       "puppeteer": "^2.1.1",
+       "request": "^2.88.2",
+       "twilio": "^3.42.1"
+     }
+   }
+   ```
 
-
+6. mapmy india key
 
 
 
@@ -130,34 +151,35 @@ The following API's were used used to fetch Covid-19 data for our website that r
 The project also uses Maps api of mapmyindia.org to render maps
  * [https://www.mapmyindia.com/api/advanced-maps/doc/interactive-map-api](https://www.mapmyindia.com/api/advanced-maps/doc/interactive-map-api)
 
----
 
 #Tests
 ####Describe and show how to run the tests with code examples.
 
 
 
----
+
 
 #How to use?
 ####If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
 
----
-
-#Contribute
-####Let people know how they can contribute into your project. A contributing guideline will be a big plus.
 
 
+# Contribute
+Our team is new to web development. Although we have tried our best to make our application robust and secure, errors might have crept in. If you have any ideas, just open an issue and tell us what you think.
 
----
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+
+
+
+
 
 #Credits
 ####Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
 
 
 
----
+
 
 #License
 ####A short snippet describing the license (MIT, Apache etc)
