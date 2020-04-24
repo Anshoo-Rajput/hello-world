@@ -103,14 +103,14 @@ Show what the library does as concisely as possible, developers should be able t
 It is very easy to use our project if anyone wants. Just follow the steps :
 
 1. Firstly if you are working locally then you need to install the following :
-  * Node.js
-  * MongoDB
-  * VS Code ( recommended , Any other suitable code editor will work )
+    * Node.js
+    * MongoDB
+    * VS Code ( recommended , Any other suitable code editor will work )
   
 2. Next you need to our project's GitHub repository to your desktop 
 
 3. Open command line navigate to the project folder. Then type the following commands to install required dependencies :
-  * npm install async, body-parser, connect-flash, ejs, express, express-session, locus, method-override, mongoose, passport, passport-     local, passport-local-mongoose, puppeteer, request --save
+    * npm install async, body-parser, connect-flash, ejs, express, express-session, locus, method-override, mongoose, passport, passport-     local, passport-local-mongoose, puppeteer, request --save
   
 4. After successful installation run the command *node app.js* to start the project. If you see *Server Has Started!!* then you have        successfully setup everything and good to go with our application.
 
