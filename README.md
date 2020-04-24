@@ -146,9 +146,9 @@ It is very easy to use our project if anyone wants. Just follow the steps :
 5. Initializing mapmyindia API :
       * Go to [MapMyIndia](https://www.mapmyindia.com/api/) website and Sign Up for free
       * After signning up in your dashboard you will find 3 API keys
-      * Place the 3 API keys accordingly in *newSeller.ejs* file s follows :
+      * Place the 3 API keys accordingly in *newSeller.ejs* and *order.ejs* files as follows :
         ```javascript
-           <script src="https://apis.mapmyindia.com/advancedmaps/v1/defcgzvz4xelncj8tlcqrllin9oeuycj/map_load?v=1.3"></script>
+           <script src="https://apis.mapmyindia.com/advancedmaps/v1/<API_KEY>/map_load?v=1.3"></script>
          
           function Auth_token_generate(){
             $.ajax({
@@ -157,11 +157,9 @@ It is very easy to use our project if anyone wants. Just follow the steps :
                 "client_id": "<CLIET_ID_KEY",
                 "client_secret": "CLIENT_SECRET_KEY"
                 },  
-                
-                
-                
-           function distance_matrix(){
-    jsonp('https://apis.mapmyindia.com/advancedmaps/v1/<REST_KEY>/distance_matrix/driving/90.33687,23.470314;90.379249,23.497178;90.497009,23.546286?rtype=1&region=bgd', function(data) {
+              
+          function distance_matrix({
+         jsonp('https://apis.mapmyindia.com/advancedmaps/v1/<REST_KEY>/distance_matrix/driving/90.33687,23.470314;90.379249,23.497178;90.497009,23.546286?rtype=1&region=bgd', function(data) {
                 console.log(data);
                 alert(JSON.stringify(data));
             });
