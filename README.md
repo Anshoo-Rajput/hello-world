@@ -1,6 +1,17 @@
 # Covid-info
-Covid-info/help is a website that serves two main purposes. Firstly it's an information site on Covid-19. It displays real time statistics of world(country-wise) and India(state-wise and district-wise) regarding Covid-19 condition. Users can also get information about Covid-19 testing centers, helpline-nos, NGO's, Hospitals, etc. available in various cities of India. The website also has a unique news feature that renders 10 latest news related to Covid-19 of the place entered by the user. 
-Secondly, through Covid-help website small business shops can take their stores online. ShopOwners will be able to accept online orders, easily maintain record of orders and generate computerised bill. Maps feature is also added for easy navigation to shops.
+Covid-info/help is a website that serves two main purposes. Firstly it's an information site on Covid-19. It displays real time statistics of the world(country-wise) and India(state-wise and district-wise) regarding Covid-19 condition. Users can also get information about Covid-19 testing centers, helpline-nos, NGO's, Hospitals, etc. available in various cities of India. The website also has a unique news feature that renders 10 latest news related to Covid-19 of the place entered by the user. 
+Secondly, through this website small business shops can take their accept orders online. 
+
+This facility serves two purposes :
+   1. Buyers : Since customers are unable to move out of their houses during
+         lockdown, they can place an e-order through the website without having to
+         visit the store physically.
+   2. Sellers : Due to lockdown, the small businesses are experiencing lesser
+         customer visits and thus less revenue. The option of accepting e-orders
+         ensures that stores do not have to suffer losses just because customers
+         cannot step out of their houses.
+
+Maps feature has been added for easy navigation to shops.
 
 
 
@@ -13,7 +24,7 @@ Secondly, through Covid-help website small business shops can take their stores 
  * Which phone number to dial in case of emergency?
  All these questions were the basis of our Covid-info project and we tried to create a one-stop solution for all questions.
  
-Another problem faced by people now is crowding of people in front of grocery stores while collecting orders. This leads to total disruption of the concept of social distancing. So our team thought of designing a website where these small grocery stores can take their stores online. People can place online orders from home and come to the shop to directly collect their order. Thereby reducing the need to wait in long queues and also enforce social distancing. Therefore we have launched Covid-help website. 
+Another problem faced by people now is crowding of people in front of grocery stores while collecting orders. This leads to total disruption of the concept of social distancing. So our team thought of designing a website where these small grocery stores can take their orders online. People can place online orders from home and come to the shop to directly collect their orders. This will reduce the waiting time in long queues and also enforce social distancing. Therefore we have launched Covid-help website. 
 
 
 # Code style
@@ -79,11 +90,11 @@ The following tools were used in building this site
  
 * Covid-help
   * Small shops and businesses can currently take their business online by signing up on our website.
-  * Maps feature added for easy location and indentification of shops by users.
+  * Maps feature added for easy location and identification of shops by users.
   * Extremely simple to place orders.
-  * Easy maintainance of order data as 'New Orders', 'Payment Pending Orders', 'Completed Orders' category.
+  * Easy maintenance of order data as 'New Orders', 'Payment Pending Orders', 'Completed Orders' category.
   * Search orders by buyer name, phone no., order date.
-  * Each order has a unique id to prevent order mismatch. Also date and time of order is also recorded.
+  * Each order has a unique id to prevent order mismatch. Also date and time of order are also recorded.
   * Easy bill generation and downloadable in PDF format.
  
 
@@ -93,7 +104,7 @@ The following tools were used in building this site
   * No two shops can have same ids
   * User cannot use the features of our site without being logged in.
  
-* Additional feat ures
+* Additional features
   * Well sanitized code base and easy to maintain
   * All RESTful routes followed and proper routes maintained.
  
@@ -116,7 +127,7 @@ It is very easy to use our project if anyone wants. Just follow the steps :
     * MongoDB
     * VS Code ( recommended , Any other suitable code editor will work )
   
-2. Next you need to our project's GitHub repository to your desktop 
+2. Next you need to clone our project's GitHub repository to your desktop 
 
 3. Open command line navigate to the project folder. Then type the following commands to install required dependencies :
      ```javascript
@@ -145,7 +156,7 @@ It is very easy to use our project if anyone wants. Just follow the steps :
    ```    
 5. Initializing mapmyindia API :
       * Go to [MapMyIndia](https://www.mapmyindia.com/api/) website and Sign Up for free
-      * After signning up in your dashboard you will find 3 API keys
+      * After signing up in your dashboard you will find 3 API keys
       * Place the 3 API keys accordingly in *newSeller.ejs* and *order.ejs* files as follows :
         ```javascript
            <script src="https://apis.mapmyindia.com/advancedmaps/v1/<API_KEY>/map_load?v=1.3"></script>
@@ -219,7 +230,7 @@ If you'd like to contribute, please fork the repository and make changes as you'
 
 
 # Credits
-####Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
+####Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contributed in this project.
 
 
 
