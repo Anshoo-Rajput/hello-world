@@ -1,4 +1,4 @@
-# Covid-info
+## Covid-info
 Covid-info/help is a website that serves two main purposes. Firstly it's an information site on Covid-19. It displays real time statistics of the world(country-wise) and India(state-wise and district-wise) regarding Covid-19 condition. Users can also get information about Covid-19 testing centers, helpline-nos, NGO's, Hospitals, etc. available in various cities of India. The website also has a unique news feature that renders 10 latest news related to Covid-19 of the place entered by the user. 
 Secondly, through this website small business shops can take their accept orders online. 
 
@@ -15,7 +15,7 @@ Maps feature has been added for easy navigation to shops.
 
 
 
-# Motivation
+## Motivation
  The very world we know and love is changing by the second due to the spread of COVID-19. People are stuck in their houses and are badly impacted by this crisis. People are very curious about questions like -
  * How many cases has my City registered
  * What is the totals number of active cases in India or Worldwide
@@ -27,7 +27,7 @@ Maps feature has been added for easy navigation to shops.
 Another problem faced by people now is crowding of people in front of grocery stores while collecting orders. This leads to total disruption of the concept of social distancing. So our team thought of designing a website where these small grocery stores can take their orders online. People can place online orders from home and come to the shop to directly collect their orders. This will reduce the waiting time in long queues and also enforce social distancing. Therefore we have launched Covid-help website. 
 
 
-# Code style
+## Code style
   1. Proper folder structure has been maintained
   
        ![alt text](https://github.com/shankhanil007/hello-world/blob/master/Capture.PNG "Folder Structure")
@@ -41,11 +41,11 @@ Another problem faced by people now is crowding of people in front of grocery st
    4. Plain JavaScript used
        ![alt text](https://github.com/shankhanil007/hello-world/blob/master/Capture4.PNG "Javascript code")
    
-# Screenshots
+## Screenshots
 
 
 
-# Tech/framework used
+## Tech/framework used
 The following tools were used in building this site
 * Front-end development
   * HTML
@@ -77,7 +77,7 @@ The following tools were used in building this site
 
 
 
-# Features
+## Features
 * Covid-info
   * Recent statistics of Covid-19 confirmed, active, recovered, deaths cases of world(country-wise) and India(state-wise and district-wise) rendered in tabular format.
   * Graphical Representation of data for better understanding.
@@ -114,12 +114,12 @@ The following tools were used in building this site
 
 
 
-# Code Example
+## Code Example
 Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 
 
-# Installation
+## Installation
 It is very easy to use our project if anyone wants. Just follow the steps :
 
 1. Firstly if you are working locally then you need to install the following :
@@ -190,7 +190,7 @@ It is very easy to use our project if anyone wants. Just follow the steps :
 
 
 
-# API Reference
+## API Reference
 The following API's were used used to fetch Covid-19 data for our website that renders data in JSON format
   * [https://corona.lmao.ninja/v2/countries](https://corona.lmao.ninja/v2/countries)
   * [https://api.covid19india.org/state_district_wise.json](https://api.covid19india.org/state_district_wise.json)
@@ -201,20 +201,20 @@ The project also uses Maps api of mapmyindia.org to render maps
  * [https://www.mapmyindia.com/api/advanced-maps/doc/interactive-map-api](https://www.mapmyindia.com/api/advanced-maps/doc/interactive-map-api)
 
 
-#Tests
+## Tests
 ####Describe and show how to run the tests with code examples.
 
 
 
 
 
-#How to use?
+## How to use?
 ####If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
 
 
 
-# Contribute
+## Contribute
 Our team is new to web development. Although we have tried our best to make our application robust and secure, errors might have crept in. If you have any ideas, just [open an issue](https://github.com/shankhanil007/Covid-Info-v3/issues) and tell us what you think.
 
 If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
@@ -229,11 +229,11 @@ If you'd like to contribute, please fork the repository and make changes as you'
 
 
 
-# Credits
+## Credits
 ####Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contributed in this project.
 
 
 
-#License
+## License
 ####A short snippet describing the license (MIT, Apache etc)
 
