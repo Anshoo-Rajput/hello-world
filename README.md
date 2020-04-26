@@ -198,7 +198,7 @@ The project also uses Maps api of mapmyindia.org to render maps
 
 ## Challenges we ran into
 
-1. **Finding the right APIs :** Our first challenge was to find suitable APIs that would render data for our Covid-info website. It took was quite some time but we managed to find a website that had multiple APIs rendeing Covid-19 related information in JSON format. It was then easier for us to parse the JSON data into javascript object.
+1. **Finding the right APIs :** Our first challenge was to find suitable APIs that would render data for our Covid-info website. It took was quite some time but we managed to find a website that had multiple APIs rendering Covid-19 related information in JSON format. It was then easier for us to parse the JSON data into javascript object.
 
 2. **Making choropleth maps with SVG and d3.js :** We thought of incorporating choropleth maps in our website for better visualisation of Covid-19 situation. Being new to web development we had absolutely no idea how to go about it. After going through several articles on *stackoverflow.com* we learnt *d3.js* library could be useful to us. *d3.js* is a javascript library that helps you bring data to life using HTML, SVG, and CSS. But using the library and understanding its usage was very chalenging. Also to render our map we needed *topojson* data of the world. Thanks to this great tutorial on [YouTube](https://www.youtube.com/watch?v=045-bsOsbJc) which made our learning process easier.
 
