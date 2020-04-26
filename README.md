@@ -1,5 +1,5 @@
 ## Covid-Info/Help
-Covid-info/help is a website that serves two main purposes. Firstly it's an information site on Covid-19. It displays real time statistics of the world(country-wise) and India(state-wise and district-wise) regarding Covid-19 situation. Users can also get information about Covid-19 testing centers, helpline-nos, NGO's, Hospitals, etc. available in various cities of India. The website also has a unique news feature that renders 10 latest news related to Covid-19 of the place entered by the user. 
+Covid-info/help is a website that serves two main purposes. Firstly it's an information site on Covid-19. It displays real time statistics of the world(country-wise) and India(state-wise and district-wise) regarding Covid-19 situation. Users can also get information about Covid-19 testing centers, helpline-nos, NGO's, Hospitals, etc. available in various cities of India. The website also has a unique news feature that renders 10 latest news related to Covid-19 of the place entered by the user. A mini Covid-19 risk checker facility is also provided for users.
 
 Secondly, through Covid-help website small business shops can take their accept orders online. This facility serves two purposes :
    1. Buyers : Since customers are unable to move out of their houses during
