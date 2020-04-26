@@ -79,7 +79,7 @@ The following tools were used in building this site
 ## Features
 * Covid-info
   * Recent statistics of Covid-19 confirmed, active, recovered, deaths cases of world(country-wise) and India(state-wise and district-wise) rendered in tabular format.
-  * Graphical Representation of data for better understanding.
+  * Graphical Representation ( line-charts ) of data for better understanding.
   * Choropleth map of world and India for better data visualisation.
   * Accurate and Effective news scrapper that renders 10 latest news of a place.
   * Additional important information like - Covid-19 testing centers, Hospitals, Govt. Helpline nos., Free food services, Shelter homes and much more.
