@@ -16,11 +16,12 @@ Maps feature has been added for easy navigation to shops.
 
 ## Motivation
  The very world we know and love is changing by the second due to the spread of COVID-19. People are stuck in their houses and are badly impacted by this crisis. People are very curious about questions like -
- * How many cases has my City registered
- * What is the totals number of active cases in India or Worldwide
- * What are the latest news regarding Covid-19 of my city
- * Are there any Covid testing labs, hospitals, free food shelters, NGOs, etc. nearby me
+ * How many cases has my City registered?
+ * What is the totals number of active cases in India or Worldwide?
+ * What are the latest news regarding Covid-19 of my city?
+ * Are there any Covid testing labs, hospitals, free food shelters, NGOs, etc. nearby me?
  * Which phone number to dial in case of emergency?
+ 
  All these questions were the basis of our Covid-info project and we tried to create a one-stop solution for all questions.
  
 Another problem faced by people now is crowding of people in front of grocery stores while collecting orders. This leads to total disruption of the concept of social distancing. So our team thought of designing a website where these small grocery stores can take their orders online. People can place online orders from home and come to the shop to directly collect their orders. This will reduce the waiting time in long queues and also enforce social distancing. Therefore we have launched Covid-help website. 
