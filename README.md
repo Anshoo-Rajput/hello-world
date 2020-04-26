@@ -187,8 +187,8 @@ It is very easy to use our project if anyone wants. Just follow the steps :
 ## API Reference
 The following API's were used used to fetch Covid-19 data for our website that renders data in JSON format
   * [https://corona.lmao.ninja/v2/countries](https://corona.lmao.ninja/v2/countries)
-  * [https://api.covid19india.org/state_district_wise.json](https://api.covid19india.org/state_district_wise.json)
-  * [https://api.covid19india.org/data.json](https://api.covid19india.org/data.json)
+  * [https://api.rootnet.in/covid19-in/stats/latest](https://api.rootnet.in/covid19-in/stats/latest)
+  * [https://api.rootnet.in/covid19-in/stats/history](https://api.rootnet.in/covid19-in/stats/history)
   * [https://api.covid19india.org/resources/resources.json](https://api.covid19india.org/resources/resources.json)
   
 The project also uses Maps api of mapmyindia.org to render maps
@@ -243,10 +243,10 @@ If you'd like to contribute, please fork the repository and make changes as you'
 
 
 ## Credits
-####Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contributed in this project.
+   * Rajat Sharma(3rd year ECE UG at Sardar Vallabhbhai National Institute of Technology, Surat) for acting as our mentor and constantly guiding us throughout the project.
+   * [MapmyIndia Interactive Map JS](https://github.com/MapmyIndia/mapmyindia-interactive-map-js-api) for their detailed GitHub repository on how to use thier features. 
+   * [COVID-19 REST API for India](https://github.com/amodm/api-covid19-in) for providing opensource APIs related to Covid-19 information and helping thousands of developers.
 
 
 
-## License
-####A short snippet describing the license (MIT, Apache etc)
 
