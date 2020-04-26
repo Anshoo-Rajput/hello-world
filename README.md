@@ -41,7 +41,6 @@ Another problem faced by people now is crowding of people in front of grocery st
    4. Plain JavaScript used
        ![alt text](https://github.com/shankhanil007/hello-world/blob/master/Capture4.PNG "Javascript code")
    
-## Screenshots
 
 
 
@@ -111,11 +110,6 @@ The following tools were used in building this site
  
 
 
-
-
-
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 
 
@@ -201,15 +195,34 @@ The project also uses Maps api of mapmyindia.org to render maps
  * [https://www.mapmyindia.com/api/advanced-maps/doc/interactive-map-api](https://www.mapmyindia.com/api/advanced-maps/doc/interactive-map-api)
 
 
-## Tests
-####Describe and show how to run the tests with code examples.
+
+## Challenges we ran into
+
+1. **Finding the right APIs :** Our first challenge was to find suitable APIs that would render data for our Covid-info website. It took was quite some time but we managed to find a website that had multiple APIs rendeing Covid-19 related information in JSON format. It was then easier for us to parse the JSON data into javascript object.
+
+2. **Making choropleth maps with SVG and d3.js :** We thought of incorporating choropleth maps in our website for better visualisation of Covid-19 situation. Being new to wev development we had absolutely no idea how to go about it. After going through several articles on *stackoverflow.com* we learnt *d3.js* library could be useful to us. *d3.js* is a javascript library that helps you bring data to life using HTML, SVG, and CSS. But using the library and understanding its usage was very chalenging. Also to render our map we needed *topojson* data of the world. Thanks to this great tutorial on [YouTube](https://www.youtube.com/watch?v=045-bsOsbJc) which made our learning process easier.
+
+3. **Web scrapping dynamic data :**  Building of the Covid-19 news scrapper was very challenging for us. We had never done web scrapping before. After going through several tutorials we successfully used *request.js* and *cheerio.js* to scrap data from a website. But our task was to build a news scrapper whose data constanly gets updated with time. After a lot of research we learnt that the previous tools could scrape only static data. We then took help of *puppeteer.js* which is headless chrome browser suitable for scrapping dynamic data.
+
+4. **Problem of using Google maps API from India :**  In our online grocery store project, for ease of identification and navigation to shops we wanted to add a maps feature. Our first choice was google maps API. In order to use the API we needed to set-up a payment method with a recurring-transaction allowable credit card. Also for Indian users google does not accept debit cards. Since we could not setup a payment method we had a hard time in finding a suitable free maps API. Thats when we found 
+[mapmyindia APIs](https://www.mapmyindia.com/api/). This API provides accurate mapping functionalities, with some additional features to google maps and has a user friendly documentation.
+
+5. **Interchange of data in MongoDB :**  In our online grocery store project we had a very difficult time in interchanging data in our mongodb database. Our task was to make it easier for shopkeepers to maintain the record of orders under *New Orders*, *Payment Pending* and *Completed* categories. With click the user must be able to transfer the order from *New Orders* to *Payment Pending* category. To overcome this problem we had to redesign the schema of our orders model keeping all the above categories as separate from one another. This helped in proper transfer of data. 
+
+6. **Using authentication feature :** This was one of the most important features of our grocery project. We had to ensure no two users can have same username, each shop is identified by a unique id, users cannot place online orders without logging in and so on.  For this we used  passport.js library which provides simple, unobtrusive authentication for Node.js. Also its great documentation helped us incorporate it properly in our project.
 
 
 
 
 
-## How to use?
-####If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+
+
+
+
+
+
+
+
 
 
 
@@ -222,8 +235,8 @@ If you'd like to contribute, please fork the repository and make changes as you'
   1. Fork it (https://github.com/your_userID/Covid-Info-v3/fork)
   2. Create your own branch (git checkout -b views/newPages)
   3. Commit your changes (git commit -am 'Added new auth feature')
-  4.  Push to the branch (git push origin views/newPages)
-  5.  Create a new Pull Request
+  4. Push to the branch (git push origin views/newPages)
+  5. Create a new Pull Request
 
 
 
