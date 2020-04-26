@@ -106,6 +106,7 @@ The following tools were used in building this site
 * Additional features
   * Well sanitized code base and easy to maintain
   * All RESTful routes followed and proper routes maintained.
+  * Reaponsive website, suitable for desktop and mobile use. 
  
  
 
