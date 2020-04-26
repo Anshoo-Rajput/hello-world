@@ -77,17 +77,16 @@ The following tools were used in building this site
 
 
 ## Features
-* Covid-info
+* **Covid-info website**
   * Recent statistics of Covid-19 confirmed, active, recovered, deaths cases of world(country-wise) and India(state-wise and district-wise) rendered in tabular format.
   * Graphical Representation ( line-charts ) of data for better understanding.
   * Choropleth map of world and India for better data visualisation.
   * Accurate and Effective news scrapper that renders 10 latest news of a place.
   * Additional important information like - Covid-19 testing centers, Hospitals, Govt. Helpline nos., Free food services, Shelter homes and much more.
-  * User interactive website. Responsive for desktop and mobile use.
   * Additional risk checker of Covid-19 for users.
  
  
-* Covid-help
+* **Covid-help website**
   * Small shops and businesses can currently take their business online by signing up on our website.
   * Maps feature added for easy location and identification of shops by users.
   * Extremely simple to place orders.
@@ -106,7 +105,7 @@ The following tools were used in building this site
 * Additional features
   * Well sanitized code base and easy to maintain
   * All RESTful routes followed and proper routes maintained.
-  * Reaponsive website, suitable for desktop and mobile use. 
+  * Responsive website, suitable for desktop and mobile use. 
  
  
 
